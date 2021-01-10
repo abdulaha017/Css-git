@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav ul li.active a,
+nav ul li a:hover {
+    color: #9c9494;
+}
+
+
+.heading {
+    margin: 30px auto;
+    width: 80%;
+    border: 1px solid #228574;
+    padding: 20px 40px;
+}
+
+.heading h1 {
+    margin-bottom: 10px;
+}
+
+.heading h2 {
+    margin-bottom: 10px;
+}
+
+.heading h3 {
+    margin-bottom: 10px;
+}
+
+.heading h4 {
+    padding-bottom: 10px;
+}
+
+.heading h5 {
+    padding-bottom: 10px;
+}
+
+.heading h6 {
+    padding-bottom: 10px;
+}
+
+.parag {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.parag p {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 26px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #222;
+    margin-bottom: 8px;
+}
+
+.parag p:last-child {
+    border: none;
+}
+
+.parag a {
+    font-weight: 600;
+}
+
+.list {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.list ul {
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+table th {
+    width: 18%;
+    text-align: left;
+    border: 1px solid;
+    padding: 6px;
+}
+
+table td,
+table thead tr {
+    border: 1px solid #222;
+    padding: 6px;
+}
+
+form.my-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-group select {
+    padding: 5px;
+}
+
+.form-group input[type="number"] {
+    padding: 5px;
+}
+
+.form-group input[type="date"] {
+    padding: 5px;
+}
+
+form.my-form input[type="submit"] {
+    padding: 10px 15px;
+    background: #1db7e4;
+    color: #FFFFFF;
+    outline: none;
+    border: 2px solid #1db7e4;
+    transition: 0.5s;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+form.my-form input[type="submit"]:hover {
+    background: #000;
+    color: #FFFFFF;
+    border: 2px solid #000;
+}
+
+.clear {
+    clear: both !important;
+}
+
+section.bolg-posts {
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+
+
+
+/* Blog Page CSS */
+
+.blog-area {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#blog-header {
+    text-align: center;
+    background-color: #354754;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#blog-footer {
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+
+article.post {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+article.post:last-child {
+    border: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+article.post h3 {
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+
+article.post p.post-meta {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+article.post img {
+    width: 300px;
+    height: auto;
+    min-width: 250px;
+}
+
+article.post p.content {
+    padding: 8px 0;
+}
+
+
+.cate {
+    padding: 10px;
+}
+
+.cate ul {
+    width: 92%;
+}
+
+.cate ul li {
+    list-style: none;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.cate h3 {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2f2e2e;
+    width: 28%;
+}
+
+.cate ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+
+.cate ul li a:hover {
+    color: #354754;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media(max-width:600px) {
+
+    .blog-area {
+        width: 100%;
+    }
+
+    section.bolg-posts {
+        width: 100% !important;
+        float: none;
+    }
+
+    aside {
+        width: 100% !important;
+        float: none;
+    }
+
+
+}
